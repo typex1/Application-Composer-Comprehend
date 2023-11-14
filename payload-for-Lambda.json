@@ -1,0 +1,77 @@
+{
+    "resource": "/text",
+    "path": "/text",
+    "httpMethod": "PUT",
+    "headers": {
+        "accept": "*/*",
+        "content-type": "application/x-www-form-urlencoded",
+        "Host": "ne9wy64v12.execute-api.eu-central-1.amazonaws.com",
+        "User-Agent": "curl/8.1.2",
+        "X-Amzn-Trace-Id": "Root=1-65524318-1882a4374265881302fbc98d",
+        "X-Forwarded-For": "54.239.6.189",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+        "accept": [
+            "*/*"
+        ],
+        "content-type": [
+            "application/x-www-form-urlencoded"
+        ],
+        "Host": [
+            "ne9wy64v12.execute-api.eu-central-1.amazonaws.com"
+        ],
+        "User-Agent": [
+            "curl/8.1.2"
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-65524318-1882a4374265881302fbc98d"
+        ],
+        "X-Forwarded-For": [
+            "54.239.6.189"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+        "resourceId": "d0fyo2",
+        "resourcePath": "/text",
+        "httpMethod": "PUT",
+        "extendedRequestId": "OV9r6EJWliAEDrA=",
+        "requestTime": "13/Nov/2023:15:39:04 +0000",
+        "path": "/Prod/text",
+        "accountId": "160817128410",
+        "protocol": "HTTP/1.1",
+        "stage": "Prod",
+        "domainPrefix": "ne9wy64v12",
+        "requestTimeEpoch": 1699889944737,
+        "requestId": "9611fde0-057f-4bcb-9d2d-a593a99bfe8f",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "sourceIp": "54.239.6.189",
+            "principalOrgId": null,
+            "accessKey": null,
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": null,
+            "userAgent": "curl/8.1.2",
+            "user": null
+        },
+        "domainName": "ne9wy64v12.execute-api.eu-central-1.amazonaws.com",
+        "apiId": "ne9wy64v12"
+    },
+    "body": "{\"text\":\"Such a great movie!\"}",
+    "isBase64Encoded": false
+}

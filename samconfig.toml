@@ -1,0 +1,8 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "application-composer-01"
+resolve_s3 = true
+s3_prefix = "application-composer-01"
+region = "eu-central-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
